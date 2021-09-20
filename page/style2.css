@@ -3,104 +3,48 @@ body {
   padding: 0;
   margin: 0;	
   /*font-family: 'Roboto', sans-serif;*/
-  padding: 0;
-  margin: 0;
-    
-animation: load forwards ;
-        animation-duration: 6s;
-        animation-delay: 0s;
-        animation-timing-function: linear ;
-        animation-timing-function: forwards;
-        /*animation-timing-function: ease-in;   infinite*/
-        width: 100%;
-        /*height: 100%;*/
+    }
+
+.OHM {
+/*overflow: hidden;*/
+display: flex;
+justify-content: center;
+width: 200px;
+/*animation-timing-function: forwards;*/
 }
 
-.conteneur_general_load_10 {
-  position: absolute; /*postulat de départ */
-  top: 50%; 
-  left: 50%; /* à 50%/50% du parent référent*/ 
-  transform: translate(-50%, -50%); /*décalage de 50% de sa propre taille*/
-  overflow:hidden;
-  width:145px;
-  height:85px;
-  padding: 0px 0px 0px 0px;
-  } 
-  
-  .cle_bleu_load_10 {
-  border-radius:50px;
-  width:50px;
-  height:50px;
-  border-top:10px solid #CB2025;
-  border-right:10px solid white;
-  border-bottom:10px solid #F8B334;
-  border-left:10px solid white;
-  animation: load_dix  forwards ;
-  animation-duration: 10s;
-  animation-delay: 0;
-  animation-timing-function: linear ;
-  animation-timing-function: forwards;
-  animation-timing-function: ease-in;   /*infinite*/
-  }
-  
-  @keyframes load_dix {
-    0%{transform:rotate(0deg);
-      opacity: 1;
-    }
-    50%{transform:rotate(360deg);
-          
-  }
-    100%{transform:rotate(720deg);opacity:0;}
-  }
-  
-  @keyframes load {
-         from {
-          opacity: 0;
-           background-color: #000;  
-           }
-         50% {opacity: 0;
-          background-color: #000;  }
-           to {
-          opacity: 1;
-          
-           }
-          }
-  
+.container {
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+
+
+.conteneur {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+animation: conte 5s ease-in-out forwards;
+opacity: 1;
+}
+ 
 
 /******menu apparaitre**********/
-.apparaitre {
-  animation: apparait  forwards ;
-  animation-duration: 10s;
-  animation-delay: 0;
-  animation-timing-function: linear ;
-  animation-timing-function: forwards;
-  animation-timing-function: ease-in;   /*infinite*/
+.page {
+opacity: 1;
 
 }
 
-@keyframes apparait {
-  from {
-   opacity: 0;
-    background-color: #000;  
-    transform: translateY(800px);
-  }
-  50% {opacity: 0;
-   background-color: #000;  }
-    
-   to {
-   opacity: 1;
-   transform: translateY(-20px);
-    }
-   }
+.ent {
+opacity: 0;
+
+}
 
 /******************/
 
 
-.page {
-	margin: auto auto;
-	width: 375px;/* 375px*/ 
-
-}	
 
 
 	.gras {
@@ -137,7 +81,8 @@ padding: 0px 0px 0px 0px;
 	.fleche {
 	width: 30px;
 	height: 30px;	
-	}
+	margin: 0px 20px 0px 0px;
+  }
 
 .tes { 
 background-image: url("images/restaurants/menil_340_220.jpg");
@@ -393,6 +338,8 @@ footer {
   color: white;
   padding: 0px 0px 0px 20px;
   margin:20px 0px 0px 0px;
+  height: 120px;
+  width: 100%;
 }
   
   .foo {
@@ -404,11 +351,21 @@ footer {
    text-decoration:none; 
   } 
   
-  img.icone {
-  width:10px; 
-  height:10px;
+  .icone {
+  width: 10px;
+  height: 10px;
   padding: 0px 10px 0px 0px;
-  }
+}
+.foo2 {
+  color: white;
+  font-weight: bold;
+}
+.logo {
+width: 80px;
+height: 40px;
+}
+
+
   
   .foo2 {
       color: white;

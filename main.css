@@ -1,113 +1,85 @@
+/**
+//color
+//color primaire  $violet: #9356dc;      (violet)
+//color secondaire $rose:#ff79da;        (rose)
+//color tertiaire $vert:#99e2d0;         (vert clair)
+//gris-clair:#f6f6f6;gris clair
+//gris-fonce:#eaeaea;gris foncé
+//gris-footer:#353535;gris sombre
+//Polices et Logo et titres: Shrikhand
+//Texte: Roboto   font-family: 'Roboto', sans-serif;
+
+**/
+
 @charset "UTF-8";
 body {
   width: 100%;
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  animation: load forwards;
-  animation-duration: 6s;
-  animation-delay: 0s;
-  animation-timing-function: linear;
-  animation-timing-function: forwards;
-  width: 100%;
-  height: 100%;
+  font-size: 16px;
+  }
+
+
+.container {
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+animation: conte 5s ease-in-out forwards;
+opacity: 1;
 }
 
-.conteneur_general_load_10 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
-  width: 145px;
-  height: 85px;
-  padding: 0px 0px 0px 0px;
+
+.OHM {
+/*overflow: hidden;*/
+display: flex;
+justify-content: center;
+width: 200px;
+/*animation-timing-function: forwards;*/
 }
 
-.cle_bleu_load_10 {
-  border-radius: 50px;
-  width: 50px;
-  height: 50px;
-  border-top: 10px solid #CB2025;
-  border-right: 10px solid white;
-  border-bottom: 10px solid #F8B334;
-  border-left: 10px solid white;
-  animation: load_dix forwards;
-  animation-duration: 10s;
-  animation-delay: 0;
-  animation-timing-function: linear;
-  animation-timing-function: forwards;
-  animation-timing-function: ease-in;
-}
 
-@keyframes load_dix {
-  0% {
-    transform: rotate(0deg);
-    opacity: 1;
-  }
-  50% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(720deg);
-    opacity: 0;
-  }
-}
-@keyframes load {
-  from {
-    opacity: 0;
-    background-color: #000;
-  }
-  50% {
-    opacity: 0;
-    background-color: #000;
-  }
-  to {
-    opacity: 1;
-  }
-}
+
+
 .conteneur {
-  width: 100%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+width: 100%;
+animation: conte 5s ease-in-out forwards;
+opacity: 1;
+background-color: #f6f6f6; 
 }
 
-.div_logo {
-  width: 100%;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
+
+/********* test*******/
+.page {
+
+
 }
 
-.logo {
-  display: flex;
-  width: 140px;
-  height: 50px;
-}
+.page2 {
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  background: #f2f2f2;
-  align-items: center;
-  height: 280px;
+  
 }
-
 /*********/
 /****/
 .map {
-  background: #ccc;
-  width: 100%;
-  height: 40px;
+display: flex;
+justify-content: center;
+background: #ccc;
+width: 100%;
 }
 
 .map11 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 140px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  padding: 10px 0px 10px 0px;
+  /*width: 140px;*/
 }
 
 .map21 {
@@ -119,23 +91,19 @@ body {
   height: 15px;
 }
 
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 340px;
-}
+
 
 .reserver {
-  margin: 0px 0px 0px 40px;
-  font-size: 1.8em;
+text-align: center;
+font-size: 1.8em;
+width: 100%;
+margin: 10px 0px 10px 0px;
 }
 
 .decouvrez {
-  width: 260px;
-  margin-left: auto;
-  margin-right: auto;
+text-align: center;
+width: 100%;
+margin: 10px 0px 10px 0px;
 }
 
 .btn_1 {
@@ -155,7 +123,7 @@ body {
   background: linear-gradient(90deg, #ff79da 0%, rgba(147, 86, 220, 0.2489729168) 35%);
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
 }
-
+/*************** fonctionnement *************************/
 .choix_bis:hover {
   color: #000;
   font-weight: bold;
@@ -171,17 +139,21 @@ body {
 }
 
 .center_button {
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
+display: flex;
+justify-content: center;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+margin: 0px 0px 20px 0px;
 }
 
 .choix {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 220px;
+  justify-content: space-around;
+  height: 250px;
+  width: 300px;
 }
 
 .mobile {
@@ -201,18 +173,21 @@ body {
 }
 
 .heart {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   margin: 0px 0px 0px 10px;
 }
 
+
 .fonctionnement {
-  width: 270px;
+  display: flex;
+  align-self: flex-start;
+  width: 200px;
 }
 
 .choix_bis {
   display: grid;
-  grid-template-columns: 30px 40px 160px 40px;
+  grid-template-columns: 30px 40px 200px;
   grid-template-rows: 1fr;
   align-items: center;
   grid-auto-rows: minmax(150px, auto);
@@ -224,7 +199,7 @@ body {
 
 .choix_bis2 {
   display: grid;
-  grid-template-columns: 30px 40px 160px 40px;
+  grid-template-columns: 30px 40px 200px;
   grid-template-rows: 1fr;
   align-items: center;
   grid-auto-rows: minmax(150px, auto);
@@ -248,20 +223,29 @@ body {
   text-align: center;
 }
 
-.btnchoix {
+/****** chercher ?????.btnchoix {
   height: 40px;
   width: 200px;
-}
+}*/
 
-.teste {
+/******************.teste {
   border-radius: 10px 10px 0px 0px;
   width: 280px;
-  height: 150px;
+  height: 150px;}*********************************/
+.cont_resto {
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+align-items: center;
+justify-content: space-around;
+margin: 20px;
 }
 
 .tete {
-  border-radius: 10px 10px 0px 0px;
-  margin: 0px 0px 20px 0px;
+display: flex;
+border-radius: 10px 10px 0px 0px;
+margin: 0px 0px 20px 0px;
+width: 340px;
 }
 
 .menil_rond {
@@ -291,6 +275,7 @@ body {
 .nouveau2 {
   position: absolute;
   background: #99e2d0;
+  text-align: center;
   color: #008766;
   width: 80px;
   margin: -210px 0px 0px 245px;
@@ -303,15 +288,17 @@ body {
   align-content: center;
   justify-content: space-between;
   background: #f2f2f2;
-  height: 100%;
   width: 100%;
   padding: 0px 0px 25px 0px;
 }
 
 .restaurant {
+  display: flex;
+  justify-content: flex-start;
   margin: 30px 0px 20px 0px;
-  width: 280px;
+  /*width: 100%;*/
   font-size: 1.5em;
+width: 340px;
 }
 
 .commentaire {
@@ -354,11 +341,22 @@ body {
   background: url("images/icone/heart_violet.png") no-repeat;
 }
 
-.coeur222 {
+/*.coeur222 {
   background-image: url("images/restaurants/menil_340_220.jpg");
   width: 340px;
   height: 220px;
 }
+
+.coeur {
+color: #fff;
+background-color: #333;
+transition: all 1s ease-out;
+}
+    
+.coeur:hover, :focus {
+color: #333;
+background-color: #fff;
+}*/
 
 .blanc {
   background: white;
@@ -370,36 +368,54 @@ body {
 .gras {
   font-weight: bold;
 }
-
+/*******************************/
 footer {
   background: #535353;
   color: white;
   padding: 0px 0px 0px 20px;
+  margin:20px 0px 0px 0px;
+  height: 120px;
+  width: 100%;
 }
-
-.foo {
-  color: white;
-}
-
-a:link {
-  text-decoration: none;
-}
-
-img.icone {
+  
+  .foo {
+      color: white;
+  }
+  
+  a:link 
+  { 
+   text-decoration:none; 
+  } 
+  
+  .icone {
   width: 10px;
   height: 10px;
   padding: 0px 10px 0px 0px;
 }
-
 .foo2 {
   color: white;
+  font-weight: bold;
+}
+.logo {
+width: 80px;
+height: 40px;
 }
 
-.page {
-  margin: 0 auto;
-  width: 375px;
+
+  
+  .foo2 {
+      color: white;
+  }
+
+  a[href^="mailto"]::before {
+    content: "📧 ";
 }
 
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+/*********************************/
 .gras {
   font-weight: bold;
 }
@@ -499,10 +515,7 @@ a, .com {
   text-decoration: none;
 }
 
-.heart {
-  width: 20px;
-  height: 20px;
-}
+
 
 .ent {
   display: grid;

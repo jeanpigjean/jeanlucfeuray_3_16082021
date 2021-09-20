@@ -1,0 +1,521 @@
+/* For devices with width of 480px and less, like phones 
+@media only screen and (max-width: 480px) {...} 
+
+ For devices with width between 481px and 768px, like larger phones and portrait tablets 
+@media only screen and (min-width: 481px) {...} 
+
+ For devices with width between 769px and 1279px, like landscape tablets and laptops 
+@media only screen and (min-width: 769px) {...} 
+
+ For devices with width of 1280px and more, like desktop computers 
+@media only screen and (min-width: 1280px) {...}*/
+
+
+@media screen and (max-width: 1400px) and (min-width: 500px) { 
+footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+background: #535353;
+color: white;
+padding: 0px 0px 0px 0px;
+width: 100%;
+height: 200px;
+font-size: 70%;
+}
+.foufou2 {
+display: flex;
+width: 230px;
+
+}
+
+.foufou3 {
+display: flex;
+
+width: 180px;
+margin: 0px 20px 0px 20px
+}
+
+.foufou4 {
+display: flex;
+width: 500px;
+
+}
+.foufou {
+display: flex;
+width: 500px;
+
+}
+.foo {
+color: white;
+font-weight: bold;
+font-size: 200%;
+}
+a:link {
+  text-decoration: none;
+}
+.icone {
+  width: 40px;
+  height: 40px;
+  padding: 0px 10px 0px 0px;
+}
+.foo2 {
+  color: white;
+  font-weight: bold;
+font-size: 200%;
+}
+
+.logofoo {
+width: 200px;
+}
+.foufou1 {
+display: flex;
+justify-content: center;
+align-content: center;
+width: 100%;
+}
+}
+
+/*@media screen and (max-width: 1100px) and (min-width: 900px) { }
+@media screen and (max-width: 1300px) and (min-width: 1100px) { }
+@media screen and (max-width: 1600px) and (min-width: 1300px) { }*/
+
+/*@media (max-width: 800px) {
+.premiere {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+background: #f2f2f2;
+}
+
+.reserver {
+}
+
+.decouvrez {
+}
+}
+
+@media (max-width: 600px) {/* au dessus de 800px 
+body {
+font-size: 2em;	
+}
+.ico_map {
+  width: 25px;
+  height: 25px;
+}
+.toto2{
+width: 400px;
+height: 80px;	
+}
+}
+
+
+
+@media screen and (max-width: 900px) and (min-width: 500px) { 
+ @media screen and (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px
+body {
+font-size: 200%;	
+}
+.ico_map {
+  width: 25px;
+  height: 25px;
+}
+.toto2{
+width: 400px;
+height: 80px;	
+}
+
+.btn_1 {
+border-radius: 50px 50px;
+height: 40px;
+width: 200px;
+height: 80px;
+width: 500px;
+font-size: 120%;
+}
+
+debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px
+.choix {
+width: 500px;
+height: 380px;
+}
+.mobile {
+width: 32px;		
+height: 32px;
+}
+.list {
+width: 32px;
+height: 32px;
+}
+.store {
+width: 32px;
+height: 32px;
+}
+
+.choix_bis {
+grid-template-columns: 40px 50px 375px;
+height: 80px;
+}
+.choix_bis2 {
+grid-template-columns: 40px 50px 375px ;
+height: 80px;
+}
+.m_rond {
+  transform: translate(-17px);
+}
+.rond {
+width: 35px;
+height: 35px;
+}
+
+
+ footer *****(max-width: 900px) and (min-width: 650px)
+footer {
+background: #535353;
+}
+.foo {
+font-size: 130%;
+}
+.icone {
+  width: 30px;
+  height: 30px;
+}
+.foo2 {
+font-size: 130%;
+}
+.logo {
+width: 200px;
+height: 100px;
+}
+
+fin foote
+
+
+.tete {
+display: flex;
+border-radius: 10px 10px 0px 0px;
+margin: 0px 0px 40px 0px;
+width: 490px;
+height: 380px;
+}
+
+.restaurant {
+border:solid lime 3px;
+width: 490px;
+}
+
+.menil_rond {
+  border-radius: 20px 20px 0px 0px;
+  width: 490px;
+  height: 280px;
+  background: white;
+background: url("images/restaurants/menil.jpg");
+}
+
+.commentaire {
+  display: grid;
+  grid-template-columns: 380px 100px;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  background: white;
+  
+  margin: -10px 0px 0px 0px;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.com3 {
+height: 100px;
+width: 100px;
+}
+.bado {
+background: url("../images/icone/heart.svg");
+width: 100px;
+height: 100px;
+}
+.bado:hover {
+background: url("../images/icone/heart.svg") none;
+background: url("../images/icone/heart_color.svg") no-repeat;
+}
+
+
+
+.nouveau {
+  position: absolute;
+  background: #99e2d0;
+  text-align: center;
+  margin: -260px 0px 0px 300px;
+  color: #008766;
+  width: 150px;
+}
+
+.nouveau2 {
+  position: absolute;
+  background: #99e2d0;
+  color: #008766;
+  width: 150px;
+  margin: -260px 0px 0px 300px;
+}
+}
+
+
+
+
+ fin responsive fonctionnement*********(max-width: 900px) and (min-width: 650px) écran entre 650px et 900px
+
+
+@media screen and (max-width: 1100px) and (min-width: 901px) écran entre 650px et 900px
+
+@media screen and (max-width: 1300px) and (min-width: 901px) { 
+body {
+font-size: 200%;	
+}
+.ico_map {
+  width: 25px;
+  height: 25px;
+}
+.toto2{
+width: 400px;
+height: 80px;	
+}
+
+.btn_1 {
+border-radius: 50px 50px;
+height: 40px;
+width: 200px;
+height: 80px;
+width: 500px;
+font-size: 120%;
+}
+
+debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px 
+.choix {
+width: 500px;
+height: 380px;
+}
+.mobile {
+width: 32px;		
+height: 32px;
+}
+.list {
+width: 32px;
+height: 32px;
+}
+.store {
+width: 32px;
+height: 32px;
+}
+
+
+.choix_bis {
+grid-template-columns: 40px 50px 375px;
+height: 80px;
+}
+.choix_bis2 {
+grid-template-columns: 40px 50px 375px ;
+height: 80px;
+}
+.m_rond {
+  transform: translate(-17px);
+}
+.rond {
+width: 35px;
+height: 35px;
+}
+
+foote(max-width: 900px) and (min-width: 650px)
+
+
+footer {
+background: #535353;
+}
+.foo {
+font-size: 130%;
+}
+.icone {
+  width: 30px;
+  height: 30px;
+}
+.foo2 {
+font-size: 130%;
+}
+.logo {
+width: 200px;
+height: 100px;
+}
+
+fin
+
+
+.tete {
+display: flex;
+border-radius: 10px 10px 0px 0px;
+margin: 0px 0px 40px 0px;
+width: 490px;
+height: 380px;
+}
+
+.restaurant {
+border:solid lime 3px;
+width: 490px;
+}
+
+.menil_rond {
+  border-radius: 20px 20px 0px 0px;
+  width: 490px;
+  height: 280px;
+  background: white;
+background: url("images/restaurants/menil.jpg");
+}
+
+.commentaire {
+  display: grid;
+  grid-template-columns: 380px 100px;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  background: white;
+  
+  margin: -10px 0px 0px 0px;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.com3 {
+height: 100px;
+width: 100px;
+}
+.bado {
+background: url("../images/icone/heart.svg");
+width: 100px;
+height: 100px;
+}
+.bado:hover {
+background: url("../images/icone/heart.svg") none;
+background: url("../images/icone/heart_color.svg") no-repeat;
+}
+
+
+
+.nouveau {
+  position: absolute;
+  background: #99e2d0;
+  text-align: center;
+  margin: -260px 0px 0px 300px;
+  color: #008766;
+  width: 150px;
+}
+
+.nouveau2 {
+  position: absolute;
+  background: #99e2d0;
+  color: #008766;
+  width: 150px;
+  margin: -260px 0px 0px 300px;
+}
+}*/
+
+
+/*
+@media screen and (max-width: 1600px) and (min-width: 1200px) écran entre 650px et 900px
+
+
+@media screen and (max-width: 1600px) and (min-width: 1101px) { 
+body {
+font-size: 400%;	
+}
+.ico_map {
+  width: 50px;
+  height: 50px;
+}
+.toto2{
+width: 1000px;
+height: 400px;	
+}
+
+.btn_1 {
+
+height: 140px;
+width: 1080px;
+font-size: 150%;
+border-radius:70px;
+}
+
+.btn_1:hover {
+height: 140px;
+width: 1080px;
+font-size: 130%;
+}
+
+
+
+.foo {
+font-size: 130%;
+}
+.icone {
+margin:0px 20px 0px 0px;
+width: 60px;
+height: 60px;
+}
+.foo2 {
+font-size: 130%;
+}
+.logo {
+width: 400px;
+height: 200px;
+}
+
+
+
+
+.choix {
+width: 1090px;
+height: 800px;
+}
+.mobile {
+width: 100px;		
+height: 100px;
+}
+.list {
+width: 100px;
+height: 100px;
+}
+.store {
+width: 100px;
+height: 100px;
+}
+
+
+.choix_bis {
+grid-template-columns: 120px 120px 750px;
+height: 180px;
+}
+.choix_bis2 {
+grid-template-columns: 120px 120px 750px ;
+height: 180px;
+}
+.m_rond {
+  transform: translate(-50px);
+}
+.rond {
+width: 100px;
+height: 100px;
+}
+
+}*/
+
+
+/*
+@media screen and (max-width: 1195px) and (min-width: 1021px) { 
+.restaurant {
+width: 1020px;
+}
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1196px) { 
+.restaurant {
+border:solid lime 3px;
+width: 1090px;
+}
+}*/
