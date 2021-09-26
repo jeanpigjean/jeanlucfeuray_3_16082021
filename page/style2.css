@@ -92,7 +92,9 @@ font-size: 16px;
 margin: 5px 0px 5px 10px;
 }
 
-.item:nth-child(1) {
+
+
+.item1 {
 /*.trait {
 width: 40px;
 border-bottom: solid #99e2d0 3px;
@@ -106,7 +108,7 @@ margin: 0px 0px 0px 10px;
 }
 
 
-.item:nth-child(2) {
+.item2 {
 display: flex;
 /*grid-gap: 10px;
 grid-auto-rows: minmax(150px, auto);*/
@@ -116,7 +118,27 @@ grid-auto-rows: minmax(150px, auto);*/
 
 }
 
-
+.item3 {
+  /*display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 0px 10px;
+  font-size: 16px;*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*width: 325px;
+  border:solid black 1px;
+  height: 50px;*/
+  margin: 0px 0px 0px 10px;
+  width: 325px;
+padding: 0px 0px 0px 0px;
+margin:0px 30px 0px 10px;
+}
+  
+  .prix {
+  margin: 0px 10px 0px 10px;
+  width: 20px;
+}
 
 
 /*.menu11 {
@@ -287,62 +309,12 @@ padding: -10px 0px 0px 0px;
 }
 
 
-
-.item1 {
-margin: 0px 0px 0px 10px;
-font-size: 16px;
-}
+/****************************************************/
 
 
+.container:hover > .item2 > .image > .cheque {animation: rotation 0.8s   ease-in forwards;}
 
-
-.tata {
-
-
-}
-
-.item3 {
-/*display: flex;
-justify-content: space-between;
-margin: 0px 0px 0px 10px;
-font-size: 16px;*/
-overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
-/*width: 325px;
-border:solid black 1px;
-height: 50px;*/
-margin: 0px 0px 0px 10px;
-}
-
-.prix {
-margin: 0px 25px 0px 0px;
-}
-
-/*.item3 {
-grid-column: 2;
-grid-row: 2;
-margin: 0px 0px 0px -10px;
-font-size: 16px;
-}
-
-.item4 {
-grid-column: 3;
-grid-row: 1 / span 2;
-}*/
-
-/*.ent:hover {animation: back 5s  linear;}*/
-.ent:hover > .item2 > .tata > .image {
-animation: teste 4s   linear forwards;
-}
-
-.ent:hover > .item2 > .tata > .image > .cheque {
-animation: rotation 5s  0.4s ease-in;
-}
-
-
-
-/*.ent:hover > .image {animation: teste 2s   linear forwards;}*/
+.container:hover > .item2 > .image {animation: teste 1.2s   linear forwards;}
 
 /*.ent:hover > .image > .cheque {animation: rotation 0.5s  0.4s linear;}*/
 
@@ -352,28 +324,11 @@ margin: -20px 0px 0px 0px;}
 
 .cheque {border-radius: 50%;background: white;width: 40px;height: 40px;}
 
-
 @keyframes teste {
-from { width: 0px;padding-left: 0px;}
-50% {width: 40px;padding-left:-40px;}
-to { width: 0px;padding-left: 0px;}
+from { width: 0px;padding-left: 0px;opacity: 1;}
+50% {width: 40px;padding-left:-40px;opacity: 1}
+to { width: 0px;padding-left: 0px;opacity: 0;}
 }
-
-
-
-
-/*
-@keyframes teste {
-from { opacity: 1;width: 0px;transform: translateX(0px);padding-left: 0px;}
-50% {opacity: 1;width: 50px;transform: translateX(-50px);padding-left:-50px;}
-to { opacity: 0;width: 0px;transform: translateX(0px);padding-left: 0px;}
-}
-*/
-
-
-
-
-
 
 @keyframes rotation {
 from { transform: rotate(0deg);}
