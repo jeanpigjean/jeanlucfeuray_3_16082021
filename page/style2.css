@@ -78,21 +78,19 @@ height: 250px;
       }
       
 
+
 .container {
 display: flex;
 flex-direction: column;
-/*justify-content: space-between;*/
-color:black;
+width: 355px;         /*width:100%;      width:355px **/
 height: 40px;
-width:355px;
-border:solid black 1px;
 border-radius: 10px;
+color:black;
 background: white;
 font-size: 16px;
 margin: 5px 0px 5px 10px;
+
 }
-
-
 
 .item1 {
 /*.trait {
@@ -130,14 +128,14 @@ grid-auto-rows: minmax(150px, auto);*/
   border:solid black 1px;
   height: 50px;*/
   margin: 0px 0px 0px 10px;
-  width: 325px;
+  width: 320px;
 padding: 0px 0px 0px 0px;
 margin:0px 30px 0px 10px;
 }
   
-  .prix {
-  margin: 0px 10px 0px 10px;
-  width: 20px;
+.prix {
+margin: 0px 5px 0px 5px;
+width: 20px;
 }
 
 
