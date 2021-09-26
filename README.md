@@ -9,8 +9,9 @@
 1. Développer un site proposant le menu de 4 grands restaurants parisiens.
 2. Permettre la réservation en ligne et la composition de menus.
 
-## Livrables
-***
+### Livrables
+* https://jeanpigjean.github.io/jeanlucfeuray_3_16082021/
+* https://github.com/jeanpigjean/jeanlucfeuray_3_16082021
 ### Pages à intégrer : 
 * Pages d'accueil
 * Pages de menu (4 au total)

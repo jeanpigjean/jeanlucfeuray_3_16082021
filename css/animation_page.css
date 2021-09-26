@@ -1,0 +1,116 @@
+.conteneur_general_load_10
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute; /* postulat de départ */
+  top: 50%; 
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+overflow:hidden;
+  width:200px;    /** width:145px; **/
+  height:100px     /**  height:85px **/
+  padding:0px 0px 0px 0px;
+  
+
+animation: sup  forwards ;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-timing-function: linear ;
+animation-timing-function: forwards;
+opacity: 0;
+} 
+
+
+@keyframes sup {
+  
+  from {opacity: 1,}
+  
+  80% {opacity: 1}
+ 
+  to {opacity: 0;}
+}
+
+
+
+
+
+
+
+
+.cle_bleu_load_10{
+  border-radius:50px;
+  width:50px;
+  height:50px;
+  
+border-top:10px solid #9356dc;
+border-right:10px solid #FF79da;              
+border-bottom:10px solid #99E2d0;
+border-left:10px solid #00A096;
+animation: load_dix  forwards ;
+animation-duration: 4s;
+animation-delay: 0s;
+animation-timing-function: linear ;
+animation-timing-function: forwards;
+}
+@keyframes load_dix{
+  0%{transform:rotate(0deg);
+    opacity: 1;
+  }
+  50%{transform:rotate(360deg)}
+  100%{transform:rotate(720deg);
+        opacity:0;
+    }}
+
+
+body {
+font-size: 2em;
+animation-name: load  ;/* forwards */
+animation-duration: 4s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-timing-function: ease-in;
+
+}
+
+.load {
+font-size: 2em;
+animation-name: load  ;/* forwards */
+animation-duration: 4s;
+animation-delay: 0s;
+animation-timing-function: linear;
+animation-timing-function: ease-in;
+
+}
+
+@keyframes load {
+  0%  { background: black; }
+  100% { background: white; }
+}
+
+.onpart {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+animation: onto 3s ease-in forwards;
+opacity: 0;
+width: 100%;
+}
+
+@keyframes onto {
+  0%  { background: black; 
+        opacity: 0;
+  }
+  
+  90% { background: white; 
+          opacity: 0;
+
+  }
+
+
+  100% { background: white; 
+          opacity: 1;
+
+  }
+}

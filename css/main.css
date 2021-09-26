@@ -16,8 +16,9 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 10px;
+  /*font-family: "Roboto", sans-serif;*/
+  /*font-size: 16px;*/
   }
 
 
@@ -26,8 +27,7 @@ display: flex;
 width: 100%;
 align-items: center;
 justify-content: center;
-animation: conte 5s ease-in-out forwards;
-opacity: 1;
+height: 50px;
 }
 
 
@@ -36,38 +36,19 @@ opacity: 1;
 display: flex;
 justify-content: center;
 width: 200px;
+
 /*animation-timing-function: forwards;*/
 }
 
 
-
-
-.conteneur {
+.premiere {
 display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: center;
+flex-direction: column;
+font-size: 20px;
 width: 100%;
-animation: conte 5s ease-in-out forwards;
-opacity: 1;
-background-color: #f6f6f6; 
+font-weight: bold;
 }
 
-
-
-
-/********* test*******/
-.page {
-
-
-}
-
-.page2 {
-
-  
-}
-/*********/
-/****/
 .map {
 display: flex;
 justify-content: center;
@@ -75,34 +56,19 @@ background: #ccc;
 width: 100%;
 }
 
-.map11 {
-  /*margin-left: auto;
-  margin-right: auto;*/
-  padding: 10px 0px 10px 0px;
-  /*width: 140px;*/
-}
-
-.map21 {
-  margin: 0px 10px 0px 0px;
-}
-
-.ico_map {
-  width: 15px;
-  height: 15px;
-}
-
-
 
 .reserver {
 text-align: center;
-font-size: 1.8em;
 width: 100%;
-margin: 10px 0px 10px 0px;
+margin: 0px 0px 0px 0px;
+background: #f2f2f2;  
+font-size: 25px;
+padding:20px 0px 0px 0px;
 }
 
 .decouvrez {
 text-align: center;
-width: 100%;
+width: 375px;
 margin: 10px 0px 10px 0px;
 }
 
@@ -114,6 +80,7 @@ margin: 10px 0px 10px 0px;
   border: none;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
   width: 200px;
+  margin: 10px 0px 30px 0px;
 }
 
 .btn_1:hover {
@@ -153,8 +120,19 @@ margin: 0px 0px 20px 0px;
   align-items: center;
   justify-content: space-around;
   height: 250px;
-  width: 300px;
+  width: 100%;
+  margin:40px 0px 60px 0px;
+  font-weight: bold;
 }
+
+
+.ico_map {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+
 
 .mobile {
   width: 16px;
@@ -195,6 +173,7 @@ margin: 0px 0px 20px 0px;
   height: 50px;
   background: #f2f2f2;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
+font-size: 16px;
 }
 
 .choix_bis2 {
@@ -207,6 +186,7 @@ margin: 0px 0px 20px 0px;
   height: 50px;
   background: #f5edff;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
+  font-size: 16px;
 }
 
 .m_rond {
@@ -232,6 +212,7 @@ margin: 0px 0px 20px 0px;
   border-radius: 10px 10px 0px 0px;
   width: 280px;
   height: 150px;}*********************************/
+
 .cont_resto {
 display: flex;
 flex-wrap: wrap;
@@ -270,6 +251,7 @@ width: 340px;
   margin: -210px 0px 0px 245px;
   color: #008766;
   width: 80px;
+  font-size: 16px;
 }
 
 .nouveau2 {
@@ -279,6 +261,7 @@ width: 340px;
   color: #008766;
   width: 80px;
   margin: -210px 0px 0px 245px;
+  font-size: 16px;
 }
 
 .coco {
@@ -293,11 +276,10 @@ width: 340px;
 }
 
 .restaurant {
-  display: flex;
-  justify-content: flex-start;
-  margin: 30px 0px 20px 0px;
-  /*width: 100%;*/
-  font-size: 1.5em;
+display: flex;
+justify-content: flex-start;
+margin: 30px 0px 20px 0px;
+/*width: 100%;*/
 width: 340px;
 }
 
@@ -316,30 +298,35 @@ width: 340px;
   grid-column: 1;
   grid-row: 1;
   margin: 0px 0px 0px 10px;
+  font-size: 16px;
 }
 
 .com2 {
   grid-column: 1;
   grid-row: 2;
   margin: 0px 0px 0px 10px;
+font-size: 16px;
 }
 
 .com3 {
   grid-column: 2;
   grid-row: 1/span 2;
   margin: 0px 0px 0px 10px;
+font-size: 16px;
 }
 
 .bado {
-  background: url("images/icone/heart.svg");
+  background: url("../images/icone/heart.svg");
   width: 16px;
   height: 16px;
 }
 
 .bado:hover {
-  background: url("images/icone/heart.svg") none;
-  background: url("images/icone/heart_violet.png") no-repeat;
+  background: url("../images/icone/heart.svg") none;
+  background: url("../images/icone/heart_violet.png") no-repeat;
 }
+
+/**********************************************/
 
 /*.coeur222 {
   background-image: url("images/restaurants/menil_340_220.jpg");
@@ -358,6 +345,8 @@ color: #333;
 background-color: #fff;
 }*/
 
+/****************************************************/
+
 .blanc {
   background: white;
   border-radius: 0px 0px 10px 10px;
@@ -372,10 +361,11 @@ background-color: #fff;
 footer {
   background: #535353;
   color: white;
-  padding: 0px 0px 0px 20px;
-  margin:20px 0px 0px 0px;
-  height: 120px;
+  padding: 30px 0px 10px 20px;
+  margin: 0px 0px 0px 0px;
+  height: 145px;
   width: 100%;
+font-size: 16px;
 }
   
   .foo {
@@ -445,15 +435,11 @@ a[href^="tel"]::before {
   width: 340px;
 }
 
-.fleche {
-  width: 30px;
-  height: 30px;
-}
 
 .tes {
   background: url("../page/images/restaurants/menil_370_240.jpg");
-  width: 370px;
-  height: 220px;
+  width: 375px;
+  height: 250px;
 }
 
 .menu11 {
@@ -610,4 +596,4 @@ a[href^=mailto]::before {
 
 a[href^=tel]::before {
   content: "📞 ";
-}/*# sourceMappingURL=main.css.map */
+}

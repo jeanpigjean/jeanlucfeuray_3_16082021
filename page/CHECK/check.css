@@ -1,0 +1,49 @@
+/** code html du check1**/
+/**
+
+<div class="container">
+<div class="toto">
+TOTO1gdgfhdgfhdfhdfhdfjjjja
+</div>
+<div class="prix">20€</div>
+<div class="image"><img src="check1.svg" class="cheque"></div>
+</div>
+
+**/
+/***********************/
+/**********************/
+body {
+padding: 0;
+margin: 0;
+width: 100%;
+}	
+
+
+
+.container {display: flex;width: 232px;height: 50px;border:solid red 1px;border-radius: 10px;}
+
+.prix {margin:0px 5px 0px 5px;}
+
+.toto {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.container:hover{animation: back 5s  linear;}
+
+.container:hover > .image {animation: teste 2s   linear forwards;}
+
+.container:hover > .image > .cheque {animation: rotation 0.5s  0.4s linear;}
+
+.image {height: 50px;width: 0px;background: #99e2d0;border-radius: 0px 10px 10px 0px;opacity: 0;}
+
+.cheque {border-radius: 50%;background: white;width: 50px;height: 50px;}
+
+@keyframes teste {
+from { opacity: 1;width: 0px;}
+50% {opacity: 1;width: 50px;}
+to { opacity: 0;width: 0px;}
+}
+
+
+@keyframes rotation {
+from { transform: rotate(0deg);}
+to { transform: rotate(360deg);}
+}
