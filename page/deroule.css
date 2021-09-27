@@ -29,47 +29,47 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 .container.deroule1 {
-animation: teste  1s   ease-in forwards;
+animation: teste  1s  3s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule2 {
-animation: teste  1s  0.3s ease-in forwards;
+animation: teste  1s  3.3s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule3 {
-animation: teste  1s  0.6s ease-in forwards;
+animation: teste  1s  3.6s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule4 {
-animation: teste  1s  0.9s ease-in forwards;
+animation: teste  1s  3.9s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule5 {
-animation: teste  1s  1.2s ease-in forwards;
+animation: teste  1s  4.2s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule6 {
-animation: teste  1s  1.5s ease-in forwards;
+animation: teste  1s  4.5s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule7 {
-animation: teste  1s  1.8s ease-in forwards;
+animation: teste  1s  4.8s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule8 {
-animation: teste  1s  2.1s ease-in forwards;
+animation: teste  1s  5.1s ease-in forwards;
 opacity: 0;
 }
 
 .container.deroule9 {
-animation: teste  1s  2.4s ease-in forwards;
+animation: teste  1s  5.4s ease-in forwards;
 opacity: 0;
 }
 /*
