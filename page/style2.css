@@ -128,13 +128,13 @@ grid-auto-rows: minmax(150px, auto);*/
   border:solid black 1px;
   height: 50px;*/
   margin: 0px 0px 0px 10px;
-  width: 320px;
+  width: 320px;/** width: 320px; **/
 padding: 0px 0px 0px 0px;
-margin:0px 30px 0px 10px;
+margin:0px 0px 0px 10px;
 }
   
 .prix {
-margin: 0px 5px 0px 5px;
+margin: 0px 2px 0px 5px;/** margin: 0px 5px 0px 5px; **/
 width: 20px;
 }
 
@@ -164,12 +164,12 @@ border-radius: 40px 40px 0px 0px;
 }
 
 
-/*.trait {
+.trait {
 width: 40px;
 border-bottom: solid #99e2d0 3px;
 margin: 0px 0px 0px 0px;
 font-size: 20px;
-}*/
+}
 
 
 .spacebetbet {
