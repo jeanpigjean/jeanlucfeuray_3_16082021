@@ -85,7 +85,7 @@ margin: 10px 0px 10px 0px;
 
 .btn_1:hover {
   color: #000;
-  font-weight: bold;
+  /*font-weight: bold;*/
   background: #ff79da;
   background: linear-gradient(90deg, #ff79da 0%, rgba(147, 86, 220, 0.2489729168) 35%);
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
@@ -275,13 +275,7 @@ width: 340px;
   padding: 0px 0px 25px 0px;
 }
 
-.restaurant {
-display: flex;
-justify-content: flex-start;
-margin: 30px 0px 20px 0px;
-/*width: 100%;*/
-width: 340px;
-}
+
 
 .commentaire {
   display: grid;
