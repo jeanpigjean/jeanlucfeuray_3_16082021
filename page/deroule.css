@@ -93,10 +93,11 @@ animation: teste_b  1s  1.6s ease-in forwards;
 opacity: 0;
 }
 */
-.container {
-/*animation: back  4s   ease-in ;*/
+/*.container {
+animation: back  4s   ease-in ;
 background:  filter: grayscale(0.5) blur(10px);
-}
+}*/
+
 /**  { filter: grayscale(50%) }          linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) );           url(img/back2.png)no-repeat;background-size:cover;**/
 
 
@@ -105,13 +106,15 @@ background:  filter: grayscale(0.5) blur(10px);
 from {transform: translateY(20px);opacity: 0;}
 to { transform: translateY(0px);opacity: 1;}}
 
+
+/*
 @keyframes teste_a {
 from {transform: translateY(20px);opacity: 0;}
 to { transform: translateY(0px);opacity: 1;}}
 
 @keyframes teste_b {
 from {transform: translateY(20px);opacity: 0;}
-to { transform: translateY(0px);opacity: 1;}}
+to { transform: translateY(0px);opacity: 1;}}*/
 
 
 
@@ -127,6 +130,8 @@ height: 200px;
 
 
 }*/
+
+/*;
 .mydiv {
 animation: teste_gh  5s   ease-in forwards;
 background: blue;
@@ -160,7 +165,7 @@ from {margin-top: 0px;
 to { margin-top: -100px;
 
 	opacity: 1;
-	}}
+	}}*/
 
 
 
