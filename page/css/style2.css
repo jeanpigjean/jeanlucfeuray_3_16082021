@@ -55,25 +55,25 @@ body {
 
 
 .tes { 
-  background-image: url("images/restaurants/menil_375_250.jpg");
+  background-image: url("../../images/restaurants/menil_375_250.jpg");
   width: 375px;
   height: 250px;
 }
 
 .tes2 { 
-  background-image: url("images/restaurants/charonne_375_250.jpg");
+  background-image: url("../../images/restaurants/charonne_375_250.jpg");
   width: 375px;
   height: 250px;
 }
 
 .tes3 { 
-  background-image: url("images/restaurants/cite_375_250.jpg");
+  background-image: url("../../images/restaurants/cite_375_250.jpg");
   width: 375px;
   height: 250px;
 }
 
 .tes4 { 
-  background-image: url("images/restaurants/delice_375_250.jpg");
+  background-image: url("../../images/restaurants/delice_375_250.jpg");
   width: 375px;
   height: 250px;
 }
@@ -194,14 +194,14 @@ border-radius: 50px 50px 0px 0px;
 }
 
 .bado {
-  background: url("images/icone/heart.svg");	
+  background: url("../../images/icone/heart.svg");	
   width: 16px;
   height:16px;
 }
 
 .bado:hover {
-  background: url("images/icone/heart.svg") none;	
-  background: url("images/icone/heart_violet.png") no-repeat;	
+  background: url("../../images/icone/heart.svg") none;	
+  background: url("../../images/icone/heart_violet.png") no-repeat;	
   /* background-attachment: fixed; */
 }
 
