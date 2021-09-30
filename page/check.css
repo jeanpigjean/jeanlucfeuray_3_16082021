@@ -1,6 +1,6 @@
 /*******************************************************************/
 /******************* code  check1 *********************************/
-.container:hover > .item2 > .image > .cheque {animation: rotation 0.8s   ease-in forwards;}
+.container:hover > .item2 > .image > .cheque {animation: rotation 0.8s  ease-in 0.3s forwards;}
 
 .container:hover > .item2 > .image {animation: chekk 1.2s   linear forwards;}
 
@@ -8,14 +8,36 @@
 
 
 .image { height: 40px;width: 0px;background: #99e2d0;border-radius: 0px 10px 10px 0px;opacity: 0;
-margin: -20px 0px 0px 0px;}
+overflow: hidden;}/**margin: -20px 0px 0px 0px**/
 
-.cheque {border-radius: 50%;background: white;width: 40px;height: 40px;}
+.image {
+width: 0px;
+height: 40px;
+margin-top: -20px;
+background: #99e2d0;
+border-radius: 0px 10px 10px 0px;
+opacity: 0;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+.cheque {border-radius: 50%;background: white;width: 38px;height: 38px;}
+
+
+
 
 @keyframes chekk {
 from { width: 0px;padding-left: 0px;opacity: 1;}
-50% {width: 40px;padding-left:-40px;opacity: 1}
-to { width: 0px;padding-left: 0px;opacity: 0;}
+to {width: 40px;padding-left:-40px;opacity: 1}
+/**to { width: 0px;padding-left: 0px;opacity: 0;}**/
 }
 
 @keyframes rotation {
