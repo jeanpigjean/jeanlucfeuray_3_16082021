@@ -8,10 +8,69 @@
 @media only screen and (min-width: 769px) {...} 
 
  For devices with width of 1280px and more, like desktop computers 
-@media only screen and (min-width: 1280px) {...}*/
+@media only screen and (min-width: 1280px) {...}
+
+320px — 480px: Mobile devices
+    481px — 768px: iPads, Tablets
+    769px — 1024px: Small screens, laptops
+    1025px — 1200px: Desktops, large screens
+    1201px and more —  Extra large screens, TV
+
+*/
 
 
-@media screen and (max-width: 1400px) and (min-width: 500px) { 
+/** rien 
+/*@media (min-device-width : 320px) and (max-device-width : 480px) {} **/
+/** rien 
+@media (min-device-width : 481px) and (max-device-width : 768px) {} **/
+
+@media (min-device-width : 481px) and (max-device-width : 768px) {
+
+.onpart {width: 100%;}
+
+
+
+}
+
+
+
+
+
+/*align-content: center;*/
+/*justify-content: space-between;*/
+/*margin: -40px 0px 0px 0px;
+padding: 0px 0px 30px 0px;
+background: #f2f2f2;
+border-radius: 40px 40px 0px 0px;*/
+
+
+/*.map {
+  font-size:25px;
+}
+.ico_map {width: 25px;height: 25px;}
+.reserver {font-size: 25px;}
+.choix_bis {width: 96%;}
+.choix_bis2 {width: 96%;}
+.fonctionnement {
+
+font-size: 25px;
+width: 96%;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width: 1400px) and (min-width: 500px) { 
 footer {
 display: flex;
 flex-wrap: wrap;
@@ -77,11 +136,11 @@ width: 100%;
 }
 }
 
-/*@media screen and (max-width: 1100px) and (min-width: 900px) { }
+@media screen and (max-width: 1100px) and (min-width: 900px) { }
 @media screen and (max-width: 1300px) and (min-width: 1100px) { }
-@media screen and (max-width: 1600px) and (min-width: 1300px) { }*/
+@media screen and (max-width: 1600px) and (min-width: 1300px) { }
 
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
 .premiere {
 display: flex;
 flex-direction: column;
@@ -414,10 +473,10 @@ background: url("../images/icone/heart_color.svg") no-repeat;
   width: 150px;
   margin: -260px 0px 0px 300px;
 }
-}*/
+}
 
 
-/*
+
 @media screen and (max-width: 1600px) and (min-width: 1200px) écran entre 650px et 900px
 
 
@@ -503,10 +562,10 @@ width: 100px;
 height: 100px;
 }
 
-}*/
+}
 
 
-/*
+
 @media screen and (max-width: 1195px) and (min-width: 1021px) { 
 .restaurant {
 width: 1020px;

@@ -8,7 +8,54 @@
 @media only screen and (min-width: 769px) {...} 
 
  For devices with width of 1280px and more, like desktop computers 
-@media only screen and (min-width: 1280px) {...}
+@media only screen and (min-width: 1280px) {...}*/
+
+/*
+max-width: 800px soit inférieure à 800px
+min-width: 800px soit supérieur à 800px
+
+(min-device-width : 768px) and (max-device-width : 1024px)
+taille entre supérieur à 768px et inférieur à 1024px
+
+4 break point
+    320px — 480px: Mobile devices
+    481px — 768px: iPads, Tablets
+    769px — 1024px: Small screens, laptops
+    1025px — 1200px: Desktops, large screens
+    1201px and more —  Extra large screens, TV
+
+
+*/
+
+/** rien 
+@media (min-device-width : 320px) and (max-device-width : 480px) {} **/
+
+/** rien 
+@media (min-device-width : 481px) and (max-device-width : 768px) {} **/
+
+@media (min-device-width : 769px) and (max-device-width : 1200px) {
+.map {
+  font-size:25px;
+}
+.ico_map {width: 25px;height: 25px;}
+.reserver {font-size: 25px;}
+.choix_bis {width: 96%;}
+.choix_bis2 {width: 96%;}
+.fonctionnement {
+
+font-size: 25px;
+width: 96%;
+}
+}
+
+
+/*@media (min-device-width : 1025px) and (max-device-width : 1200px) {}
+@media (min-device-width : 1200px) and (max-device-width : 2000px) {}*/
+
+
+
+
+
 
 
 /*@media (max-width: 800px) {
@@ -41,6 +88,8 @@ height: 80px;
 }
 }*/
 
+
+/*
 @media screen and (max-width: 500px)  { 
 
 
@@ -56,19 +105,13 @@ width: 100%;
 padding: 0px 25px 0px 0px;
 margin:  0px 0px 0px -20px;
 }
-}
-/*.toto2 { 
-justify-content: center;
-align-content: center;
-width: 200px;
-height: 40px; 
-
- }*/
+}*/
 
 
 
-@media screen and (max-width: 900px) and (min-width: 500px) { 
-/** @media screen and (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px**/
+
+/**@media screen and (max-width: 900px) and (min-width: 500px) { 
+ @media screen and (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px**
 body {
 font-size: 200%;	
 }
@@ -99,9 +142,12 @@ width: 200px;
 height: 80px;
 width: 500px;
 font-size: 120%;
-}
+}*/
 
-/************debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px ****/
+
+
+
+/************debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px ****
 .choix {
 width: 500px;
 height: 380px;
@@ -118,7 +164,7 @@ height: 32px;
 width: 32px;
 height: 32px;
 }
-/*.heart { width: 32px;height: 32px;margin: 0px 0px 0px 10px;} */
+
 .choix_bis {
 grid-template-columns: 40px 50px 375px;
 height: 80px;
@@ -133,9 +179,11 @@ height: 80px;
 .rond {
 width: 35px;
 height: 35px;
-}
+}*/
 
-/****** footer *****(max-width: 900px) and (min-width: 650px)****/
+
+
+/****** footer *****(max-width: 900px) and (min-width: 650px)****
 footer {
 background: #535353;
 height: 200px;
@@ -146,9 +194,6 @@ img.icone {
   height: 25px;
 }
 
-/*.foo_foo1 {
-  font-size: 16px;
-}*/
 
 a.foo {
   font-size: 28px;
@@ -168,11 +213,13 @@ a.foo2 {
   .haha_logo {
 width: 200px;
 height: 35px;
-  }
+  }*/
+
+
 
 /********fin footer*****/
 
-/*******************/
+/*******************
 .tete {
 display: flex;
 border-radius: 10px 10px 0px 0px;
@@ -196,9 +243,7 @@ background: url("images/restaurants/menil.jpg");
 .commentaire {
   display: grid;
   grid-template-columns: 380px 100px;
-  /*grid-template-rows: 1fr 1fr;
-  align-items: center;
-  background: white;*/
+  
   
   margin: -10px 0px 0px 0px;
   height: 100px;
@@ -222,22 +267,17 @@ background: url("../images/icone/heart_color.svg") no-repeat;
 
 
 .nouveau {
-  /*position: absolute;
-  background: #99e2d0;
-  text-align: center;*/
+  
   margin: -260px 0px 0px 300px;
-  /*color: #008766;*/
   width: 150px;
 }
 
 .nouveau2 {
-  /*position: absolute;
-  background: #99e2d0;
-  color: #008766;*/
+
   width: 150px;
   margin: -260px 0px 0px 300px;
 }
-}
+}*/
 
 /*******************/
 
@@ -245,7 +285,7 @@ background: url("../images/icone/heart_color.svg") no-repeat;
 /************ fin responsive fonctionnement*********(max-width: 900px) and (min-width: 650px) écran entre 650px et 900px***/
 
 
-/*@media screen and (max-width: 1100px) and (min-width: 901px) écran entre 650px et 900px*/
+/*@media screen and (max-width: 1100px) and (min-width: 901px) écran entre 650px et 900px
 
 @media screen and (max-width: 1300px) and (min-width: 901px) { 
 body {
@@ -275,15 +315,15 @@ height: 200px;
 }
 
 .btn_1 {
-border-radius: 50px 50px;*/
+border-radius: 50px 50px;
 height: 40px;
 width: 200px;
 height: 80px;
 width: 500px;
 font-size: 120%;
-}
+}*/
 
-/************debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px ****/
+/************debut responsive fonctionnement (max-width: 900px) and (min-width: 650px) écran entre 650px et 900px ****
 .choix {
 width: 500px;
 height: 380px;
@@ -300,7 +340,7 @@ height: 32px;
 width: 32px;
 height: 32px;
 }
-/*.heart { width: 32px;height: 32px;margin: 0px 0px 0px 10px;} */
+
 .choix_bis {
 grid-template-columns: 40px 50px 375px;
 height: 80px;
@@ -315,9 +355,11 @@ height: 80px;
 .rond {
 width: 35px;
 height: 35px;
-}
+}*/
 
-/****** footer *****(max-width: 900px) and (min-width: 650px)****/
+
+
+/****** footer *****(max-width: 900px) and (min-width: 650px)****
 footer {
 background: #535353;
 }
@@ -340,7 +382,7 @@ font-size: 130%;
 .haha_logo {
 width: 400px;
 height: 120px;
-}
+}*/
 
 
 
@@ -349,6 +391,7 @@ height: 120px;
 /********fin footer*****/
 
 /*******************/
+/*
 .tete {
 display: flex;
 border-radius: 10px 10px 0px 0px;
@@ -372,9 +415,7 @@ background: url("images/restaurants/menil.jpg");
 .commentaire {
   display: grid;
   grid-template-columns: 380px 100px;
-  /*grid-template-rows: 1fr 1fr;
-  align-items: center;
-  background: white;*/
+  
   
   margin: -10px 0px 0px 0px;
   height: 100px;
@@ -398,22 +439,18 @@ background: url("../images/icone/heart_color.svg") no-repeat;
 
 
 .nouveau {
-  /*position: absolute;
-  background: #99e2d0;
-  text-align: center;*/
+  
   margin: -260px 0px 0px 300px;
-  /*color: #008766;*/
+  
   width: 150px;
 }
 
 .nouveau2 {
-  /*position: absolute;
-  background: #99e2d0;
-  color: #008766;*/
+  
   width: 150px;
   margin: -260px 0px 0px 300px;
 }
-}
+}*/
 
 
 /*
@@ -505,7 +542,7 @@ height: 100px;
 }*/
 
 
-@media screen and (max-width: 1195px) and (min-width: 1021px) { 
+/*@media screen and (max-width: 1195px) and (min-width: 1021px) { 
 .restaurant {
 width: 1020px;
 }
@@ -581,4 +618,4 @@ justify-content: center;
 align-content: center;
 width: 100%;
 }
-}
+}*/

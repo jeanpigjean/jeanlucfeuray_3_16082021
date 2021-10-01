@@ -18,7 +18,6 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
   }
 
 
@@ -41,7 +40,7 @@ width: 200px;
 .premiere {
 display: flex;
 flex-direction: column;
-font-size: 20px;
+font-size: 16px;
 width: 100%;
 font-weight: bold;
 }
@@ -59,13 +58,12 @@ text-align: center;
 width: 100%;
 margin: 0px 0px 0px 0px;
 background: #f2f2f2;  
-font-size: 25px;
 padding:20px 0px 0px 0px;
 }
 
 .decouvrez {
 text-align: center;
-width: 375px;
+width: 100%;/* width: 375px*/
 margin: 10px 0px 10px 0px;
 }
 
@@ -118,7 +116,7 @@ margin: 0px 0px 20px 0px;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  height: 250px;
+  height: 280px;
   width: 100%;
   margin:40px 0px 60px 0px;
   font-weight: bold;
@@ -126,8 +124,8 @@ margin: 0px 0px 20px 0px;
 
 
 .ico_map {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   margin-right: 20px;
 }
 
@@ -157,9 +155,9 @@ margin: 0px 0px 20px 0px;
 
 
 .fonctionnement {
-  display: flex;
-  align-self: flex-start;
-  width: 200px;
+margin:0px 0px 20px 0px;
+font-size: 16px;
+width: 280px;
 }
 
 .choix_bis {
@@ -172,7 +170,7 @@ margin: 0px 0px 20px 0px;
   height: 50px;
   background: #f2f2f2;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
-font-size: 16px;
+font-size: 12px;
 }
 
 .choix_bis2 {
@@ -185,7 +183,7 @@ font-size: 16px;
   height: 50px;
   background: #f5edff;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .m_rond {
@@ -197,9 +195,11 @@ font-size: 16px;
   border: solid 1px #9356dc;
   background: #9356dc;
   color: white;
-  width: 17px;
-  height: 17px;
+  width: 20px;
+  height: 20px;
   text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
 }
 
 
@@ -263,10 +263,15 @@ width: 340px;
   justify-content: space-between;
   background: #f2f2f2;
   width: 100%;
-  padding: 0px 0px 25px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
-
+.restaurant {
+width: 100%;
+font-size: 16px;
+margin: 15px 0px 20px 0px;
+}
 
 .commentaire {
   display: grid;
@@ -274,7 +279,7 @@ width: 340px;
   grid-template-rows: 1fr 1fr;
   align-items: center;
   background: white;
-  margin: -5px 0px 0px 0px;
+  margin: -10px 0px 0px 0px;
   height: 50px;
   border-radius: 0px 0px 20px 20px;
 }
@@ -308,7 +313,7 @@ font-size: 16px;
 
 .bado:hover {
   background: url("../images/icone/heart.svg") none;
-  background: url("../images/icone/heart_violet.png") no-repeat;
+  background: url("../images/icone/heart_violet.svg") no-repeat;
 }
 
 
@@ -329,7 +334,7 @@ font-size: 16px;
 footer {
   background: #535353;
   color: white;
-  padding: 30px 0px 10px 20px;
+  padding: 20px 0px 10px 20px;
   margin: 0px 0px 0px 20px;
   height: 145px;
   width: 100%;
