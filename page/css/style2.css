@@ -55,28 +55,14 @@ body {
 
 
 .tes { 
-  background-image: url("../../images/restaurants/menil_375_250.jpg");
-  width: 375px;
-  height: 250px;
+width: 375px;
+height: 250px;
 }
 
-.tes2 { 
-  background-image: url("../../images/restaurants/charonne_375_250.jpg");
-  width: 375px;
-  height: 250px;
-}
+.sous_tes {
+max-width: 100%;
+height: auto;}
 
-.tes3 { 
-  background-image: url("../../images/restaurants/cite_375_250.jpg");
-  width: 375px;
-  height: 250px;
-}
-
-.tes4 { 
-  background-image: url("../../images/restaurants/delice_375_250.jpg");
-  width: 375px;
-  height: 250px;
-}
 
 
 
@@ -136,7 +122,7 @@ grid-auto-rows: minmax(150px, auto);*/
 }
 
 .prix {
-  margin: 0px 20px 0px 0px;/** margin: 0px 5px 0px 5px; **/
+  margin: 0px 20px 0px 10px;/** margin: 0px 5px 0px 5px; **/
 font-weight: bold;
 }
 
@@ -159,10 +145,10 @@ border-radius: 50px 50px 0px 0px;
   /*justify-content: space-between;*/
   width: 375px;
   margin: -40px 0px 0px 0px;
-  padding: 0px 0px 30px 0px;
-  /*height: 900px;*/
+  padding: 0px 0px 0px 0px;
   background: #f2f2f2;
   border-radius: 40px 40px 0px 0px;
+
 }
 
 
@@ -255,15 +241,20 @@ a, .com {
 footer {
   background: #535353;
   color: white;
-  padding: 30px 0px 30px 20px;
+  padding: 0px 0px 0px 20px;
   margin: 0px 0px 0px 0px;
-  height: 120px;
-  width: 355px;
+  height: 150px;
+  width: 100%;
   font-size: 16px;
 }
 
 .foo {
   color: white;
+}
+
+.foufou1 {
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 a:link 

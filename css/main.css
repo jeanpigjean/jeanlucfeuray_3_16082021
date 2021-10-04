@@ -1,4 +1,4 @@
-/**
+/*
 color
 color primaire  $violet: #9356dc;      (violet)
 color secondaire $rose:#ff79da;        (rose)
@@ -9,7 +9,7 @@ gris-footer:#353535;gris sombre
 Polices et Logo et titres: Shrikhand
 Texte: Roboto   font-family: 'Roboto', sans-serif;
 
-**/
+*/
 
 @charset "utf-8";
 body {
@@ -48,6 +48,7 @@ font-weight: bold;
 .map {
 display: flex;
 justify-content: center;
+align-items: center;
 background: #ccc;
 width: 100%;
 }
@@ -63,7 +64,7 @@ padding:20px 0px 0px 0px;
 
 .decouvrez {
 text-align: center;
-width: 100%;/* width: 375px*/
+width: 100%;
 margin: 10px 0px 10px 0px;
 }
 
@@ -87,7 +88,7 @@ margin: 10px 0px 10px 0px;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
   cursor: pointer;
 }
-/* ************** fonctionnement ************************ */
+/* fonctionnement */
 .choix_bis:hover {
   color: #000;
   font-weight: bold;
@@ -330,63 +331,54 @@ font-size: 16px;
 }
 
 
-/* ************ footer ***************** */
+/*  footer */
 footer {
   background: #535353;
   color: white;
-  padding: 20px 0px 10px 20px;
-  margin: 0px 0px 0px 20px;
-  height: 145px;
+  padding: 0px 0px 20px 20px;
+  margin: 0px 0px 0px 0px;
+  height: 150px;
   width: 100%;
-font-size: 16px;
-}
-  
-
-  .haha {
-    width: 100%;
-    height: 20px;
-    margin: 0px 0px 20px 20px;
-  }
-  
-  .haha_logo {
-width: 200px;
-height: 35px;
-  }
-
-  .foo {
-      color: white;
-  }
-  
-  a:link 
-  { 
-   text-decoration:none; 
-  } 
-  
-  .icone {
-  width: 14px;
-  height: 14px;
-  padding: 0px 10px 0px 0px;
+  font-size: 16px;
 }
 
-.foo2 {
-color: white;
+.foo {
+  color: white;
 }
 
-.logo {
-width: 80px;
-height: 40px;
+.foufou1 {
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
-
-.foo_foo1 {
-margin: 0px 0px 0px 0px;
+a:link 
+{ 
+ text-decoration:none; 
 } 
 
-  a[href^="mailto"]::before {
-    content: "📧 ";
+.icone {
+  width: 10px;
+  height: 10px;
+  padding: 0px 10px 0px 0px;
+}
+.foo2 {
+  color: white;
+}
+.logo {
+  width: 80px;
+  height: 40px;
+}
+
+
+
+.foo2 {
+  color: white;
+}
+
+a[href^="mailto"]::before {
+  content: "📧 ";
 }
 
 a[href^="tel"]::before {
-    content: "📞 ";
+  content: "📞 ";
 }
-
