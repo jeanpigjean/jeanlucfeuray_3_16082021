@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute; /* postulat de départ */
+  position: absolute; 
   top: 50%; 
-  left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  left: 50%; 
+  transform: translate(-50%, -50%); 
 overflow:hidden;
-  width:220px;    /** width:145px; **/
-  height:100px     /**  height:85px **/
+  width:220px;    
+  height:100px     
   padding:0px 0px 0px 0px;
   
 
@@ -30,13 +30,6 @@ opacity: 0;
  
   to {opacity: 0;}
 }
-
-
-
-
-
-
-
 
 .cle_bleu_load_10{
   border-radius:50px;
@@ -65,7 +58,7 @@ animation-timing-function: forwards;
 
 body {
 font-size: 2em;
-animation-name: load  ;/* forwards */
+animation-name: load  ;
 animation-duration: 4s;
 animation-delay: 0s;
 animation-timing-function: linear;
@@ -75,7 +68,7 @@ animation-timing-function: ease-in;
 
 .load {
 font-size: 2em;
-animation-name: load  ;/* forwards */
+animation-name: load  ;
 animation-duration: 4s;
 animation-delay: 0s;
 animation-timing-function: linear;
@@ -99,18 +92,15 @@ width: 100%;
 }
 
 @keyframes onto {
-  0%  { background: black; 
+0%  { background: black; 
         opacity: 0;
-  }
-  
-  90% { background: white; 
+}
+90% { background: white; 
           opacity: 0;
+}
 
-  }
 
-
-  100% { background: white; 
+100% { background: white; 
           opacity: 1;
-
-  }
+}
 }

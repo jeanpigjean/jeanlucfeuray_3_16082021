@@ -1,16 +1,3 @@
-/*
-color
-color primaire  $violet: #9356dc;      (violet)
-color secondaire $rose:#ff79da;        (rose)
-color tertiaire $vert:#99e2d0;         (vert clair)
-gris-clair:#f6f6f6;gris clair
-gris-fonce:#eaeaea;gris foncé
-gris-footer:#353535;gris sombre
-Polices et Logo et titres: Shrikhand
-Texte: Roboto   font-family: 'Roboto', sans-serif;
-
-*/
-
 @charset "utf-8";
 body {
   width: 100%;
@@ -88,7 +75,8 @@ margin: 10px 0px 10px 0px;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
   cursor: pointer;
 }
-/* fonctionnement */
+
+
 .choix_bis:hover {
   color: #000;
   font-weight: bold;
@@ -313,7 +301,7 @@ font-size: 16px;
 }
 
 .bado:hover {
-  background: url("../images/icone/heart.svg") none;
+  background-image: none;
   background: url("../images/icone/heart_violet.svg") no-repeat;
 }
 
@@ -331,7 +319,6 @@ font-size: 16px;
 }
 
 
-/*  footer */
 footer {
   background: #535353;
   color: white;
@@ -368,7 +355,6 @@ a:link
   width: 80px;
   height: 40px;
 }
-
 
 
 .foo2 {

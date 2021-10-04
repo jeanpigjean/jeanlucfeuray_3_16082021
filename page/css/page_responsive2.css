@@ -1,36 +1,6 @@
-/* For devices with width of 480px and less, like phones 
-@media only screen and (max-width: 480px) {...} 
-
- For devices with width between 481px and 768px, like larger phones and portrait tablets 
-@media only screen and (min-width: 481px) {...} 
-
- For devices with width between 769px and 1279px, like landscape tablets and laptops 
-@media only screen and (min-width: 769px) {...} 
-
- For devices with width of 1280px and more, like desktop computers 
-@media only screen and (min-width: 1280px) {...}
-
-320px — 480px: Mobile devices
-    481px — 768px: iPads, Tablets
-    769px — 1024px: Small screens, laptops
-    1025px — 1200px: Desktops, large screens
-    1201px and more —  Extra large screens, TV
-
-*/
-
-
-/** rien 
-/*@media (min-device-width : 320px) and (max-device-width : 480px) {} **/
-/** rien 
-@media (min-device-width : 481px) and (max-device-width : 768px) {} **/
-
 @media (min-device-width : 481px) and (max-device-width : 1300px) {
-
 .onpart {width: 100%;}
-
-
 .eloigne {width: 100%;}
-
 .container {width: 96%;
   margin: 10px 15px 10px 10px;
   padding: 0px 0px 0px 0px;
@@ -61,5 +31,4 @@ max-width: 100%;
 height: auto;}
 
 footer {width: 100%;}
-
 }
