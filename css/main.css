@@ -5,54 +5,54 @@ body {
   margin: 0;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  }
+}
 
 
 .container {
-display: flex;
-width: 100%;
-align-items: center;
-justify-content: center;
-height: 50px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 
 
 .OHM {
-display: flex;
-justify-content: center;
-width: 200px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
 }
 
 
 .premiere {
-display: flex;
-flex-direction: column;
-font-size: 16px;
-width: 100%;
-font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  width: 100%;
+  font-weight: bold;
 }
 
 .map {
-display: flex;
-justify-content: center;
-align-items: center;
-background: #ccc;
-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  width: 100%;
 }
 
 
 .reserver {
-text-align: center;
-width: 100%;
-margin: 0px 0px 0px 0px;
-background: #f2f2f2;  
-padding:20px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background: #f2f2f2;  
+  padding:20px 0px 0px 0px;
 }
 
 .decouvrez {
-text-align: center;
-width: 100%;
-margin: 10px 0px 10px 0px;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
 }
 
 .btn_1 {
@@ -92,12 +92,12 @@ margin: 10px 0px 10px 0px;
 }
 
 .center_button {
-display: flex;
-justify-content: center;
-width: 100%;
-margin-left: auto;
-margin-right: auto;
-margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px 0px 20px 0px;
 }
 
 .choix {
@@ -144,9 +144,9 @@ margin: 0px 0px 20px 0px;
 
 
 .fonctionnement {
-margin:0px 0px 20px 0px;
-font-size: 16px;
-width: 280px;
+  margin:0px 0px 20px 0px;
+  font-size: 16px;
+  width: 280px;
 }
 
 .choix_bis {
@@ -159,7 +159,7 @@ width: 280px;
   height: 50px;
   background: #f2f2f2;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
-font-size: 12px;
+  font-size: 12px;
 }
 
 .choix_bis2 {
@@ -194,24 +194,24 @@ font-size: 12px;
 
 
 .cont_resto {
-display: flex;
-flex-wrap: wrap;
-align-content: center;
-align-items: center;
-justify-content: space-around;
-margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px;
 }
 
 .tete {
-display: flex;
-border-radius: 10px 10px 0px 0px;
-margin: 0px 0px 20px 0px;
-width: 340px;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 0px 20px 0px;
+  width: 360px;
 }
 
 .menil_rond {
   border-radius: 20px 20px 0px 0px;
-  width: 340px;
+  width: 360px;
   height: 220px;
   background: white;
 }
@@ -257,9 +257,9 @@ width: 340px;
 }
 
 .restaurant {
-width: 100%;
-font-size: 16px;
-margin: 15px 0px 20px 0px;
+  width: 100%;
+  font-size: 16px;
+  margin: 15px 0px 20px 10px;
 }
 
 .commentaire {
@@ -284,14 +284,14 @@ margin: 15px 0px 20px 0px;
   grid-column: 1;
   grid-row: 2;
   margin: 0px 0px 0px 10px;
-font-size: 16px;
+  font-size: 16px;
 }
 
 .com3 {
   grid-column: 2;
   grid-row: 1/span 2;
   margin: 0px 0px 0px 10px;
-font-size: 16px;
+  font-size: 16px;
 }
 
 .bado {
