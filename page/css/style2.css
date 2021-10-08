@@ -85,6 +85,7 @@ header {
     background: white;
     width: 90%;
     margin:0px 0px 20px 0px;
+    height: 40px;
   }
 
   .item1 {
@@ -95,6 +96,7 @@ header {
 
   .item2 {
     display: flex;
+    justify-content: space-between;
     margin:0px 0px 0px 10px;
   }
 
@@ -232,7 +234,6 @@ header {
   margin: 0px 0px 15px 0px;
 }
 .foo1 {
-  width: 35%;
   height: 20px;
 }
 .foufou {
