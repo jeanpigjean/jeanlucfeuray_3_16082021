@@ -1,34 +1,19 @@
 @media (min-device-width : 481px) and (max-device-width : 1300px) {
-.onpart {width: 100%;}
-.eloigne {width: 100%;margin: -150px 0px 0px 0px;}
-/*.container {width: 96%;
-  margin: 10px 15px 10px 10px;
-  padding: 0px 0px 0px 0px;
-}*/
 
-.page_logo {
-width: 400px;
-  height:80px;
+	.page_logo {
+		width: 100%;
+		height:80px;
 
-}
-.lolo {
-  width: 400px;
-  height: 80px;
-}
-.fleche {
-  width: 50px;
-  height: 50px; 
-  margin: 0px 20px 0px 0px;
-}
+	}
+	.lolo {
+		width: 400px;
+		height: 80px;
+	}
+	.fleche {
+		width: 50px;
+		height: 50px; 
+		margin: 0px 20px 0px 0px;
+	}
 
-/*.tes { 
-width: 100%;
-height: 450px;
-}
-
-.sous_tes {
-max-width: 100%;
-height: auto;}*/
-
-footer {width: 100%;}
+	footer {width: 100%;}
 }

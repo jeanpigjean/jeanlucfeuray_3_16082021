@@ -1,17 +1,14 @@
-.conteneur_general_load_10
-{
+.conteneur_general_load_10 {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   position: absolute; 
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
 overflow:hidden;
-  width:220px;    
-  height:100px     
-  padding:0px 0px 0px 0px;
-  
+  width:240px;    
+  height:120px;    
 
 animation: sup  forwards ;
 animation-duration: 3s;
@@ -31,10 +28,10 @@ opacity: 0;
   to {opacity: 0;}
 }
 
-.cle_bleu_load_10{
-  border-radius:50px;
-  width:50px;
-  height:50px;
+.cle_bleu_load_10 {
+border-radius:50px;
+width:50px;
+height:50px;
   
 border-top:10px solid #9356dc;
 border-right:10px solid #FF79da;              
@@ -46,6 +43,7 @@ animation-delay: 0s;
 animation-timing-function: linear ;
 animation-timing-function: forwards;
 }
+
 @keyframes load_dix{
   0%{transform:rotate(0deg);
     opacity: 1;
@@ -81,15 +79,6 @@ animation-timing-function: ease-in;
   100% { background: white; }
 }
 
-.onpart {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-animation: onto 3s ease-in forwards;
-opacity: 0;
-width: 100%;
-}
 
 @keyframes onto {
 0%  { background: black; 
