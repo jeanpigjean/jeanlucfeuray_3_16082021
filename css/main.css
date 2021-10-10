@@ -2,18 +2,26 @@
 
 * {
   margin: 0;
-  padding: 0; 
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
 body {
+  min-height: 100vh;
   width: 100%;
 }
+
 
 
 .onpart {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   animation: onto 3s ease-in forwards;
   opacity: 0;
@@ -21,20 +29,18 @@ body {
 }
 
 
-.container {
-  display: flex;
+header {
   width: 100%;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-}
-
-
-.OHM {
   display: flex;
   justify-content: center;
-  width: 200px;
+  align-items: center;
 }
+
+.toto2 {
+  height: 50px;
+  width: 140px;
+}
+
 
 
 .premiere {
@@ -51,6 +57,7 @@ body {
   align-items: center;
   background: #ccc;
   width: 100%;
+  height: 30px;
 }
 
 
@@ -64,20 +71,22 @@ body {
 
 .decouvrez {
   text-align: center;
-  width: 100%;
+  width: 98%;
   margin: 10px 0px 10px 0px;
 }
 
 .btn_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: linear-gradient(#ff79da, #9356dc);
   color: white;
   border-radius: 50px 50px;
-  height: 40px;
+  height: 30px;
   border: none;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
-  width: 330px;
   margin: 0px 0px 0px 0px;
-  padding: 15px 0px 0px 0px;
+  padding: 0px 20px 0px 20px;
   font-size: 16px;
 }
 
@@ -89,6 +98,9 @@ body {
   cursor: pointer;
 }
 
+.btn_2 {
+  width: 70%;
+}
 
 .choix_bis:hover {
   color: #000;
@@ -112,18 +124,6 @@ body {
   margin-right: auto;
   margin: 0px 0px 20px 0px;
 }
-
-.choix {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 280px;
-  width: 100%;
-  margin:40px 0px 60px 0px;
-  font-weight: bold;
-}
-
 
 .ico_map {
   width: 20px;
@@ -155,9 +155,16 @@ body {
   margin: 0px 0px 0px 10px;
 }
 
-
+.choix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 280px;
+  font-weight: bold;
+}
 .fonctionnement {
-  margin:0px 0px 20px 0px;
+  margin:0px 0px 0px 0px;
   font-size: 16px;
   width: 280px;
 }
@@ -167,12 +174,12 @@ body {
   grid-template-columns: 30px 40px 200px;
   grid-template-rows: 1fr;
   align-items: center;
-  grid-auto-rows: minmax(150px, auto);
   border-radius: 15px;
   height: 50px;
   background: #f2f2f2;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
   font-size: 12px;
+  width: 70%;
 }
 
 .choix_bis2 {
@@ -186,10 +193,12 @@ body {
   background: #f5edff;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
   font-size: 12px;
+  width: 70%;
+  margin: 0px 0px 10px 0px;
 }
 
 .m_rond {
-  transform: translate(-10px);
+  transform: translate(-10px, -5px);
 }
 
 .rond {
@@ -204,27 +213,27 @@ body {
   margin-top: 10px;
 }
 
-
-
-.cont_resto {
+.coco {
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-around;
-  margin: 20px;
+  background: #f2f2f2;
+  /*width: 100%;*/
 }
+
+
 
 .tete {
   display: flex;
   border-radius: 10px 10px 0px 0px;
   margin: 0px 0px 20px 0px;
-  width: 360px;
+  width: 290px;
 }
 
 .menil_rond {
   border-radius: 20px 20px 0px 0px;
-  width: 360px;
+  width: 290px;
   height: 220px;
   background: white;
 }
@@ -241,7 +250,7 @@ body {
   position: absolute;
   background: #99e2d0;
   text-align: center;
-  margin: -210px 0px 0px 245px;
+  margin: -210px 0px 0px 200px;
   color: #008766;
   width: 80px;
   font-size: 16px;
@@ -253,43 +262,35 @@ body {
   text-align: center;
   color: #008766;
   width: 80px;
-  margin: -210px 0px 0px 245px;
+  margin: -210px 0px 0px 200px;
   font-size: 16px;
 }
 
-.coco {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
-  background: #f2f2f2;
-  width: 100%;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-}
+
 
 .restaurant {
-  width: 100%;
+  display: flex;
+  width: 290px;
   font-size: 16px;
   margin: 15px 0px 20px 10px;
 }
 
 .commentaire {
   display: grid;
-  grid-template-columns: 290px 40px;
+  grid-template-columns: 250px 40px;
   grid-template-rows: 1fr 1fr;
-  align-items: center;
+  /*align-items: center;*/
   background: white;
   margin: -10px 0px 0px 0px;
   height: 50px;
   border-radius: 0px 0px 20px 20px;
+  width: 290px;
 }
 
 .com1 {
   grid-column: 1;
   grid-row: 1;
-  margin: 0px 0px 0px 10px;
+  margin: 5px 0px 0px 10px;
   font-size: 16px;
 }
 
@@ -303,7 +304,7 @@ body {
 .com3 {
   grid-column: 2;
   grid-row: 1/span 2;
-  margin: 0px 0px 0px 10px;
+  margin: 15px 0px 0px 0px;
   font-size: 16px;
 }
 
