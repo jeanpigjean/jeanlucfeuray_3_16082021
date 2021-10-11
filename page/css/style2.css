@@ -84,7 +84,7 @@ height: 60px;
     color:black;
     font-size: 16px;
     background: white;
-    width: 90%;
+    width: 95vw;
     margin:0px 0px 20px 0px;
     height: 40px;
   }
@@ -134,7 +134,7 @@ height: 60px;
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100%;
+      min-width: 100%;
       background: #f2f2f2;
       border-radius: 20px 20px 0px 0px;
       transform: translate(0px, -10px);
@@ -144,6 +144,7 @@ height: 60px;
       width: 90%;
       margin: 0px 0px 0px 0px;
       font-size: 20px;
+    color: black
     }
 
     .sous_trait {
@@ -155,9 +156,10 @@ height: 60px;
     .spacebetbet {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       align-content: center;
-      width: 90%;
-      height: 30px;
+      width: 95vw;
+      height: 40px;
       font-size: 25px;
       font-family: 'Shrikhand', cursive;
       margin: 15px 0px 15px 15px;
@@ -167,49 +169,40 @@ height: 60px;
       color: black;
     }
     .com3 {
-      margin: 0px 20px 0px 0px;	
+      
+      margin: 5px 20px 0px 0px;	
     
     }
 
-    .bado {
-      background: url("../../images/icone/heart.svg");	
-      width: 16px;
-      height:16px;
-    }
-
-    .bado:hover {
-      background: none;	
-      background: url("../../images/icone/heart_violet.png") no-repeat;	
-    }
-
+    
     .centre_btn_com {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
       width: 100%;
-      height: 120px;
+      height: 60px;
     }
 
     .btn_commande {
       display: flex;
       justify-content: center;
       align-items: center;
-
       border-radius: 20px ;
       background: linear-gradient(#ff79da,#9356dc);
-      width: 160px;
-      height:40px;
-      margin: 0px 0px 20px 0px;
-      font-size: 16px;
       font-weight: bold;
+      width: 140px;
+      height:40px;
+      font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.52);
     }
 
     .btn_commande:hover {
       background: linear-gradient(#ff79da,#9356dc);
-      font-weight: bold;
-      background: rgb(255,121,218);
-      background: linear-gradient(90deg, rgba(255,121,218,1) 0%, rgba(147,86,220,0.24897291680344014) 35%); 
-      box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.82);
+      opacity: 0.85;
+      box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.72);
     }
 
     a, .com {
@@ -218,10 +211,6 @@ height: 60px;
       transform: translate(0px, -10px);
     }
 
-    .heart {
-     width: 20px;
-     height: 20px;
-   }
 
    footer {
     background: #535353;

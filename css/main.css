@@ -11,13 +11,10 @@ html {
   font-size: 16px;
 }
 
-
 body {
   min-height: 100vh;
   width: 100%;
 }
-
-
 
 .onpart {
   display: flex;
@@ -27,7 +24,6 @@ body {
   opacity: 0;
   width: 100%;
 }
-
 
 header {
   width: 100%;
@@ -40,8 +36,6 @@ header {
   height: 50px;
   width: 140px;
 }
-
-
 
 .premiere {
   display: flex;
@@ -59,7 +53,6 @@ header {
   width: 100%;
   height: 30px;
 }
-
 
 .reserver {
   text-align: center;
@@ -82,19 +75,16 @@ header {
   background: linear-gradient(#ff79da, #9356dc);
   color: white;
   border-radius: 50px 50px;
-  height: 30px;
+  height: 50px;
   border: none;
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
-  margin: 0px 0px 0px 0px;
   padding: 0px 20px 0px 20px;
   font-size: 16px;
 }
 
 .btn_1:hover {
-  color: #000;
-  background: #ff79da;
-  background: linear-gradient(90deg, #ff79da 0%, rgba(147, 86, 220, 0.2489729168) 35%);
-  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
+  opacity: 0.85;
+  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.72);
   cursor: pointer;
 }
 
@@ -105,15 +95,15 @@ header {
 .choix_bis:hover {
   color: #000;
   font-weight: bold;
-  background-color: rgba(220, 220, 220, 0.1);
-  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
+  background: rgba(237, 237, 237, 0.70);
+  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.62);
 }
 
 .choix_bis2:hover {
   color: #000;
   font-weight: bold;
-  background-color: rgba(220, 220, 220, 0.1);
-  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.82);
+  background:rgba(245, 237, 255, 0.70);
+  box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.62);
 }
 
 .center_button {
@@ -131,8 +121,6 @@ header {
   margin-right: 20px;
 }
 
-
-
 .mobile {
   width: 16px;
   height: 16px;
@@ -149,12 +137,6 @@ header {
   color: #9356dc;
 }
 
-.heart {
-  width: 20px;
-  height: 20px;
-  margin: 0px 0px 0px 10px;
-}
-
 .choix {
   display: flex;
   flex-direction: column;
@@ -163,6 +145,7 @@ header {
   height: 280px;
   font-weight: bold;
 }
+
 .fonctionnement {
   margin:0px 0px 0px 0px;
   font-size: 16px;
@@ -176,7 +159,7 @@ header {
   align-items: center;
   border-radius: 15px;
   height: 50px;
-  background: #f2f2f2;
+  background: rgba(237, 237, 237, 1);
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
   font-size: 12px;
   width: 70%;
@@ -190,7 +173,7 @@ header {
   grid-auto-rows: minmax(150px, auto);
   border-radius: 15px;
   height: 50px;
-  background: #f5edff;
+  background: rgba(245,237,255,1);
   box-shadow: 1px 7px 11px 1px rgba(0, 0, 0, 0.52);
   font-size: 12px;
   width: 70%;
@@ -219,10 +202,7 @@ header {
   justify-content: center;
   align-items: center;
   background: #f2f2f2;
-  /*width: 100%;*/
 }
-
-
 
 .tete {
   display: flex;
@@ -266,8 +246,6 @@ header {
   font-size: 16px;
 }
 
-
-
 .restaurant {
   display: flex;
   width: 290px;
@@ -279,7 +257,6 @@ header {
   display: grid;
   grid-template-columns: 250px 40px;
   grid-template-rows: 1fr 1fr;
-  /*align-items: center;*/
   background: white;
   margin: -10px 0px 0px 0px;
   height: 50px;
@@ -308,19 +285,6 @@ header {
   font-size: 16px;
 }
 
-.bado {
-  background: url("../images/icone/heart.svg");
-  width: 16px;
-  height: 16px;
-}
-
-.bado:hover {
-  background-image: none;
-  background: url("../images/icone/heart_violet.svg") no-repeat;
-}
-
-
-
 .blanc {
   background: white;
   border-radius: 0px 0px 10px 10px;
@@ -331,7 +295,6 @@ header {
 .gras {
   font-weight: bold;
 }
-
 
 footer {
   background: #535353;
